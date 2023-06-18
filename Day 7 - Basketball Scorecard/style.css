@@ -1,49 +1,62 @@
-body {
+
+
+*{
     margin: 0;
-    background: #1B244A;
+    padding: 0;
     font-family: 'Cursed Timer ULiL', sans-serif;
-                                                
+    box-sizing: border-box;      
+    background: #161d3b;                                     
 }
 
-.container {
+.container{
+    width: 100%;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+}
+
+.home, .guest{
+    /* border: 1px solid white; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8em;
 }
 
 h3{
     color: white;
-    text-align: center;
-    font-size: 2.5rem;
+    font-size: 40px;
 }
 
-.score-card{
-    margin: 50px;
-}
-
-.score-board{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: black;
-    color: #f95270;
-    /* text-align: center; */
-    height: 104px;
-    width: 140px;
-    font-size: 5.625rem
-}
-
-.score-points{
-    display: flex;
-    color: #9AABD8;
-    margin-top: 10px;
-    justify-content: center;
-}
-
-.points{
+.plusone-btn,
+.plustwo-btn,
+.plusthree-btn,
+.reset-btn{
     border: 1px solid #9AABD8;
+    color: #9AABD8;
+    padding: 5px 10px;
     border-radius: 5px;
-    margin: 5px;
-    padding: 5px;
+    cursor: pointer;
+    margin: 0 2px;
 }
+
+.scoreboard-guest,
+.scoreboard-home{
+    margin-top: 20px;
+}
+
+#home-score,
+#guest-score{
+    width: 100px;
+    height: 100px;
+    background: black;
+    text-align: center;
+    color: #f95270;
+    font-size: 80px;
+}
+
+.buttons{
+    margin-top: 30px;
+}
+
