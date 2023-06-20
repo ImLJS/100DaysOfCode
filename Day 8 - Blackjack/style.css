@@ -20,13 +20,15 @@ h1 {
     font-style: italic;
 }
 
-#start-btn{
+button{
     background-color: goldenrod;
-    padding: 15px 75px;
+    width: 250px;
+    padding: 10px 0;
     border: none;
     color: #016f32;
     font-weight: bold;
     font-size: 20px;
     border-radius: 5px;
     cursor: pointer;
+    margin: 5px;
 }
