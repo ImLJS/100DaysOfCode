@@ -1,3 +1,8 @@
+let player = {
+    name: "Leo",
+    chips: 200
+}
+
 let cards = []
 let sum = 0
 let hasBlackJack = false
@@ -7,6 +12,8 @@ let messageEl = document.getElementById("message-el")
 let sumEl = document.getElementById("sum-el")
 let cardsEl = document.getElementById("cards-el")
 
+let playerEl = document.getElementById("player-el")
+playerEl.textContent = player.name + ": $" + player.chips
 
 function startGame() {
     isAlive = true
@@ -14,8 +21,6 @@ function startGame() {
     let secondCard = getRandomCard()
     cards = [firstCard, secondCard]
     sum = firstCard + secondCard
-    // Generate two random numbes
-    // Re-assign the cards and sum variables so that the game can start
     renderGame()
 }
 function getRandomCard() {
