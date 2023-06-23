@@ -8,5 +8,5 @@ fightButton.addEventListener("click", function() {
 })
 
 function randomFighter(){
-    return Math.floor(Math.random()*17)
+    return Math.floor(Math.random()*fighters.length)
 }
