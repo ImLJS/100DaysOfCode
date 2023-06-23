@@ -20,3 +20,18 @@ function generatePassword(){
     }
     return password;
 }
+
+function copyToClipboard(e) {
+    let password = e.target;
+    navigator.clipboard.writeText(password.textContent).then(res=>{
+            console.log("Input data copied to clipboard successfully");
+        })
+    
+  /* Alert the copied text */
+}
+
+passwordEl1.addEventListener("click", copyToClipboard);
+passwordEl2.addEventListener("click", copyToClipboard);
+
+
+  
