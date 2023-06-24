@@ -1,14 +1,14 @@
 # 100DaysOfCode
 
-- Day 1: Google Clone
-- Day 2: Bussiness Card
-- Day 3: Space Exploration Website
-- Day 4: Birthday GIFt Site
-- Day 5: Hometown Homepage
-- Day 6: Passenger Counter App
-- Day 7: Basketball Scoreboard
-- Day 8: BlackJack Game
-- Day 9: Emoji Fighter 
+- Day 01: Google Clone
+- Day 02: Bussiness Card
+- Day 03: Space Exploration Website
+- Day 04: Birthday GIFt Site
+- Day 05: Hometown Homepage
+- Day 06: Passenger Counter App
+- Day 07: Basketball Scoreboard
+- Day 08: BlackJack Game
+- Day 09: Emoji Fighter 
 - Day 10: Password Generator
 
 
