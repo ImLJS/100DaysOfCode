@@ -10,5 +10,5 @@
 - Day 08: BlackJack Game
 - Day 09: Emoji Fighter 
 - Day 10: Password Generator
-
+- Day 11: Dice Game
 
