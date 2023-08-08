@@ -11,4 +11,6 @@
 - Day 09: Emoji Fighter 
 - Day 10: Password Generator
 - Day 11: Dice Game
+- Day 12: Guess the Number
+- Day 13: Button
 
