@@ -13,4 +13,5 @@
 - Day 11: Dice Game
 - Day 12: Guess the Number
 - Day 13: Button
+- Day 14: Museum of Candy
 
